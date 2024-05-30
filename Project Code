@@ -151,7 +151,7 @@ from PIL import Image
 from tensorflow.keras.preprocessing import image as keras_image
 
 # Replace 'YOUR_BOT_TOKEN' with your actual bot token
-bot = telebot.TeleBot('6222302081:AAE7e_SRoaHvV71M50TphNZY028XGGBrYIA')
+bot = telebot.TeleBot('use own telegram bot id')
 
 # Load the pre-trained model
 
