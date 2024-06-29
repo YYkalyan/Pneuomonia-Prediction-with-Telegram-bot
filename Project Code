@@ -133,6 +133,8 @@ history = model.fit(datagen.flow(x_train,y_train, batch_size = 32) ,epochs = 12 
 print("Loss of the model is - " , model.evaluate(x_test,y_test)[0])
 print("Accuracy of the model is - " , model.evaluate(x_test,y_test)[1]*100 , "%")
 
+#TELEGRAM BOT MODULE
+
 !pip install python-telegram-bot
 !pip install pyTelegramBotAPI requests
 
